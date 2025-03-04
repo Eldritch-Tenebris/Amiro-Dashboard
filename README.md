@@ -1,53 +1,46 @@
-
-
 <div align="center">
-  
   
   <img src="serverdash.png" />
 
-  <h2 align="center">Discord-Server-Dashboard</h2>
+  <h2 align="center">Painel do Servidor do Discord</h2>
 
-  It is a fully responsive discord server/bot dashboard template. Here you can see login system also. 
-
+  Este é um modelo totalmente responsivo de painel para servidor/bot do Discord. Aqui você também pode ver um sistema de login.
 
 </div>
 
 <br>
 
-## Installation
+## Instalação
 
-- Clone Repo
+- Clone o repositório:
 ```
 git clone https://github.com/diwasatreya/Discord-Server-Dashboard.git
 ```
 
-- [Run in replit](https://repl.it/github/diwasatreya/Discord-Server-Dashboard)
+- [Executar no Replit](https://repl.it/github/diwasatreya/Discord-Server-Dashboard)
 
-- After cloning, type (Shell/Terminal)
+- Após clonar, digite no Shell/Terminal:
 ```js
 npm install
 ```
 
-- Create `.env` file (Environment Secret in replit)
+- Crie um arquivo `.env` (Segredo de Ambiente no Replit)
 ```
 TOKEN=XXXXXXXXXX
 DB=XXXXXXXXXXXXX
 ```
 
-- Fill `config.json` 
+- Preencha o arquivo `config.json`
 
+## Portal de Desenvolvedores do Discord
+Adicione `https://dominio/` & `https://dominio/auth/login` na URL de redirecionamento OAuth2 da aplicação.
 
-## Discord Developer Portal
-Add `https://domain/` & `https://domain/auth/login` in application OAuth2 redirect url 
-
-
-## Adding API's
-Goto `routes/api.js` then add your api code
+## Adicionando APIs
+Vá até `routes/api.js` e adicione seu código de API.
 
 <div align="center">
   <br>
-  <h3> Star the Project </h3>
-  <p> Follow me on github & twitter </p>
- <img src="https://user-images.githubusercontent.com/74746579/168328818-6995ed8d-915d-4083-9279-3d94e1d150c5.png" alt="help to star">
- </div>
-            
+  <h3> Dê uma estrela para o projeto </h3>
+  <p> Me siga no GitHub e Twitter </p>
+ <img src="https://user-images.githubusercontent.com/74746579/168328818-6995ed8d-915d-4083-9279-3d94e1d150c5.png" alt="ajude a dar uma estrela">
+</div>
